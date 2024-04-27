@@ -4,6 +4,8 @@ Este proyecto previamente inicializado tiene todo lo necesario para trabajar con
 
 Cada paso de su configuración ya se ha realizado previamente en el curso, por lo que solo es necesario clonar el proyecto y comenzar a trabajar.
 
+npm i bcryptjs
+
 
 ## Instalación
 0. npm i // Reconstruir los Modulos de NODE
