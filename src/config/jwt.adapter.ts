@@ -29,10 +29,14 @@ export class JwtAdapter{
 
     static validateJwt(token: string)
     {
-        //TODO Pendiente
-        throw new Error('Not Implemented');
-        return;
-        
+        return new Promise((resolve) => {
+            jwt.verify(token, JWT_SEED, (err, decoded) => {
+
+               if(err) return resolve(null);
+               resolve(decoded);
+
+            });
+        })        
     }
 
 }

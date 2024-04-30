@@ -6,6 +6,8 @@ Cada paso de su configuración ya se ha realizado previamente en el curso, por l
 
 npm i bcryptjs
 
+ngrok http http://localhost:3002
+
 
 ## Instalación
 0. npm i // Reconstruir los Modulos de NODE
