@@ -17,3 +17,7 @@ ngrok http http://localhost:3002
 4. LLenar la base de datos de prueba ejecutando: `npm run seed`
 5. Ejecutar `npm run dev` para levantar el proyecto en modo desarrollo
 
+
+File Upload
+
+npm i express-fileupload
