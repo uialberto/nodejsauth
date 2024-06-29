@@ -8,6 +8,12 @@ npm i bcryptjs
 
 ngrok http http://localhost:3002
 
+Otros Framework a Express:
+
+- Elysia (Bun)
+- Hono (Revisar)
+- Fastify
+-
 
 ## Instalación
 0. npm i // Reconstruir los Modulos de NODE
